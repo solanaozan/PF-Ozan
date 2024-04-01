@@ -1,0 +1,41 @@
+[33mcommit 56ba249288d679c5e4d3423ccfb6a758e07bf90f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mclases[m[33m)[m
+Author: Solana Ozan <ozan.solana14@gmail.com>
+Date:   Mon Apr 1 18:57:26 2024 -0300
+
+    mejora en responsive
+
+[33mcommit 4ae295c596a9595125cb9141494ce4cd25f04af0[m
+Author: Solana Ozan <ozan.solana14@gmail.com>
+Date:   Mon Apr 1 13:00:07 2024 -0300
+
+    se agrego carrusel de fotos y se descargaron imagenes a img-assets
+
+[33mcommit 577326a294de620746f03ea286895d15c12b6793[m
+Author: Solana Ozan <ozan.solana14@gmail.com>
+Date:   Mon Apr 1 12:43:23 2024 -0300
+
+    se modificó el navbar
+
+[33mcommit fd305df6a5cb374f6a176dd1a170850d4fafe586[m[33m ([m[1;32mstylescss[m[33m, [m[1;32mlogin[m[33m, [m[1;32mfindus[m[33m)[m
+Author: Solana Ozan <ozan.solana14@gmail.com>
+Date:   Mon Apr 1 01:21:22 2024 -0300
+
+    cambios en el navbar y logo
+
+[33mcommit 99e4071ef1a3f014c8661ad7346917330e3428f7[m
+Author: Solana Ozan <ozan.solana14@gmail.com>
+Date:   Sun Mar 31 23:53:39 2024 -0300
+
+    Footer agregado
+
+[33mcommit 81f4ffe3e0a74ca40c80553d2c9d033a8b14734e[m
+Author: Solana Ozan <ozan.solana14@gmail.com>
+Date:   Sun Mar 31 23:48:22 2024 -0300
+
+    cambios en: nav, banner y registro
+
+[33mcommit 36de5cd3b076226448fd46aad9277a9ba8f71ca0[m
+Author: Solana Ozan <ozan.solana14@gmail.com>
+Date:   Mon Mar 25 22:07:17 2024 -0300
+
+    primer commit
