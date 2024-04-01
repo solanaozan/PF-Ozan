@@ -12,45 +12,71 @@
     <link rel="shortcut icon" href="../assets/img/rayo.png"  type="image/x-icon">
 </head>
 <body>
-    <header>
-        <nav  id="navbar-example2" class="navbar ontainer-fluid p-3 mb-2 bg-dark" >
-            <!-- nav p color=tarara -->
-            <h1 class="navbar-brand text-warning" href="#">Powerclub</h1>
-            <!--.nav color tararra-->
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <button type="button" class="btn btn-dark ">
-                    <a href="../index.html" target="_blank" class="text-warning">Home</a>
-                    </button>
-                </li>
-                <li class="nav-item" > 
-                    <a href="./classes.html" class="nav-link text-warning" href="#">Clases</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a href="./supplements.html" target="_blank" class="nav-link dropdown-toggle text-warning" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Suplementos</a>
-                    <ul class="dropdown-menu bg-dark">
-                        <li>
-                            <a href="./supplements.html#creatina" target="_blank" a class="dropdown-item text-warning" href="#"> Creatina</a>
-                        </li>
-                        <li>
-                            <a href="./supplements.html#proteina" target="_blank" a class="dropdown-item text-warning" href="#">Proteína</a>
-                        </li>
-                        <li>
-                            <a href="./supplements.html#preentreno" target="_blank" a class="dropdown-item text-warning" href="#">Pre entreno</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a href="./findus.html" target="_blank" class="nav-link text-warning" href="#scrollspyHeading2" href="#"> Sedes </a>
-                </li>
-                <li class="nav-item">
-                    <a href="./login.html" target="_blank" class="nav-link text-warning" href="#scrollspyHeading2" href="#"> Registrarme</a>
-                </li>
-            </ul>
+    <header>               
+        <nav class="navbar bg-body-tertiary fixed-top bg-dark">
+        <div class="container-fluid">
+        <a class="navbar-brand text-warning" href="#">Powerclub</a>
+        <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                        <h5 class="offcanvas-title text-warning" id="offcanvasNavbarLabel">POWERCLUB</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body text-warning">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="../pages/classes.html" target="_blank">Clases</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="../pages/supplements.html" role="button"  data-bs-toggle="dropdown" aria-expanded="false" target="_blank">Suplementos</a>
+                                <ul class="dropdown-menu bg-dark">
+                                        <li><a class="dropdown-item" href="../pages/supplements.html#creatina">Creatina</a></li>
+                                        <li><a class="dropdown-item" href="../pages/supplements.html#proteina">Proteína</a></li>
+                                        <li><a class="dropdown-item" href="../pages/supplements.html#preentreno">Pre-entreno</a></li>
+                                </ul>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                </div>
+        </div>
+        </div>
         </nav>
     </header>
     <main>        
         <div class="imagen-de-fondo-2"></div>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../assets/img/personasentrenando1.png" class="d-block w-100" alt="Personas entrenando en conjunto">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/personasentrenando2.jpeg" class="d-block w-100" alt="Personas entrenando">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/personasentrenando3.jpg" class="d-block w-100" alt="Personas entrenando en casa">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         <section class="descripcion">
         <h2 class="modalidad">CLASES ONLINE</h2>
         <p class="texto">Ahora cada vez más cerca, dejando las excusas y buscando la comodidad al mismo tiempo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium facilis iste laborum, adipisci tempora placeat corrupti quae ipsam laboriosam reprehenderit dignissimos animi distinctio molestiae, eius omnis culpa doloribus libero atque!
@@ -59,16 +85,12 @@
         Eos corrupti quaerat cumque provident quibusdam a modi quidem non soluta corporis odio officiis impedit reprehenderit aut odit temporibus, fugit, nihil nobis dolores! Maxime dolore facilis esse vero officia debitis?
         Dolor quasi sit voluptatem numquam sed libero saepe eum iure deleniti. Repudiandae, dignissimos nisi maxime cupiditate optio voluptate. Sapiente quos voluptatibus assumenda reiciendis at repellendus adipisci, mollitia blanditiis vero aliquam.</p>
         </section>
-        <section class="container text-center grid gap-3">
-            <div class="row">
+        <section class="container text-center grid gap-3 videos">
+            <div class="row clase-1">
             <iframe src="https://www.youtube.com/embed/j1FTQvVDZEI" title="EXPLOSIVE LEG DAY |  LOWER BODY WORKOUT WITH ANALIS CRUZ" frameborder="05" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="shortuno" class="col p-2 g-col-6"></iframe>
-            <iframe  src="https://www.youtube.com/embed/rcmGblDEKU8" title="The ultimate BIGGER BICEPS arm workout (with Stan Browney)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="col p-2 g-col-6" ></iframe>
-            <iframe  src="https://www.youtube.com/embed/fWT-_jx41Jc" title="THE ULTIMATE BACK AND BICEP WORKOUT | Get pumped with Analis Cruz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="col p-2 g-col-6" ></iframe>
             </div>
-            <div class="row">
+            <div class="row clase-1">
             <iframe src="https://www.youtube.com/embed/rwMFUgUhhls" title="Leg Day in the Iron Paradise. BEND BOUNDARIES. | Dwayne Johnson Under Armour Campaign" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="col p-2 g-col-6" ></iframe>
-            <iframe  src="https://www.youtube.com/embed/KvCLfLWMAao" title="LEANER, STRONGER LEGS - SCULPTING WORKOUT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreenc class="col p-2 g-col-6"></iframe>
-            <iframe src="https://www.youtube.com/embed/EMKrh3naOBg" title="FULL BACK WORKOUT | HOW TO BE A THAVAGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="col p-2 g-col-6"></iframe>
             </div>
         </section>
         <section class="boton-1">
