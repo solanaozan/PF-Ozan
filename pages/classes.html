@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -12,42 +12,49 @@
     <link rel="shortcut icon" href="../assets/img/rayo.png"  type="image/x-icon">
 </head>
 <body>
-    <header>
-        <nav  id="navbar-example2" class="navbar ontainer-fluid p-3 mb-2 bg-dark" >
-            <!-- nav p color=tarara -->
-            <h1 class="navbar-brand text-warning" href="#">Powerclub</h1>
-            <!--.nav color tararra-->
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <button type="button" class="btn btn-dark ">
-                    <a href="../index.html" target="_blank" class="text-warning">Home</a>
-                    </button>
-                </li>
-                <li class="nav-item" > 
-                    <a href="./classes.html" class="nav-link text-warning" href="#">Clases</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a href="./supplements.html" target="_blank" class="nav-link dropdown-toggle text-warning" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Suplementos</a>
-                    <ul class="dropdown-menu bg-dark">
-                        <li>
-                            <a href="./supplements.html#creatina" target="_blank" a class="dropdown-item text-warning" href="#"> Creatina</a>
-                        </li>
-                        <li>
-                            <a href="./supplements.html#proteina" target="_blank" a class="dropdown-item text-warning" href="#">Proteína</a>
-                        </li>
-                        <li>
-                            <a href="./supplements.html#preentreno" target="_blank" a class="dropdown-item text-warning" href="#">Pre entreno</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a href="./findus.html" target="_blank" class="nav-link text-warning" href="#scrollspyHeading2" href="#"> Sedes </a>
-                </li>
-                <li class="nav-item">
-                    <a href="./login.html" target="_blank" class="nav-link text-warning" href="#scrollspyHeading2" href="#"> Registrarme</a>
-                </li>
-            </ul>
-        </nav>
+    <header>             
+      <nav class="navbar bg-body-tertiary fixed-top bg-dark">
+      <div class="container-fluid">
+      <h1 class="navbar-brand text-warning" href="#">Powerclub</h1>
+      <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                      <h5 class="offcanvas-title text-warning" id="offcanvasNavbarLabel">POWERCLUB</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body text-warning">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                              <li class="nav-item">
+                                      <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                      <a class="nav-link" href="classes.html" target="_blank">Clases</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                      <a class="nav-link dropdown-toggle" href="supplements.html" role="button"  data-bs-toggle="dropdown" aria-expanded="false" target="_blank">Suplementos</a>
+                              <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="supplements.html#creatina">Creatina</a></li>
+                                      <li><a class="dropdown-item" href="supplements.html#proteina">Proteína</a></li>
+                                      <li><a class="dropdown-item" href="supplements.html#preentreno">Pre-entreno</a></li>
+                              </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="findus.html" target="_blank">Encuéntranos</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="login.html" target="_blank">Registrarme</a>
+                              </li>
+                      </ul>
+                      <form class="d-flex mt-3" role="search">
+                              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                              <button class="btn btn-outline-success" type="submit">Buscar</button>
+                      </form>
+              </div>
+      </div>
+      </div>
+      </nav>
     </header>
     <main>        
         <div class="imagen-de-fondo-2"></div>
