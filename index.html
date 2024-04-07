@@ -9,13 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <title>Powerclub</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="shortcut icon" href="./assets/img/rayo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/rayo.png" type="image/x-icon">
 </head>
 <body>
     <header>        
         <nav class="navbar bg-body-tertiary fixed-top bg-dark">
         <div class="container-fluid">
-        <a class="navbar-brand text-warning" href="#">Powerclub</a>
+        <h1 class="navbar-brand text-warning" href="#">Powerclub</h1>
         <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,25 +27,26 @@
                 <div class="offcanvas-body text-warning">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li class="nav-item">
-                                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                        <a class="nav-link" aria-current="page" href="pages/index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
                                         <a class="nav-link" href="pages/classes.html" target="_blank">Clases</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="pages/supplements.html" role="button"  data-bs-toggle="dropdown" aria-expanded="false" target="_blank">Suplementos</a>
-                                <ul class="dropdown-menu bg-dark">
-                                        <li><a class="dropdown-item" href="pages/supplements.html#creatina">Creatina</a></li>
-                                        <li><a class="dropdown-item" href="pages/supplements.html#proteina">Proteína</a></li>
-                                        <li><a class="dropdown-item" href="pages/supplements.html#preentreno">Pre-entreno</a></li>
+                                <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="pages/supplements.html" target="_blank">Suplementos</a></li>
+                                        <li><a class="dropdown-item" href="pages/supplements.html#creatina" target="_blank">Creatina</a></li>
+                                        <li><a class="dropdown-item" href="pages/supplements.html#proteina" target="_blank">Proteína</a></li>
+                                        <li><a class="dropdown-item" href="pages/supplements.html#preentreno" target="_blank">Pre-entreno</a></li>
                                 </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="findus.html" target="_blank">Encuéntranos</a>
+                                    <a class="nav-link" href="pages/findus.html" target="_blank">Encuéntranos</a>
                                 </li>
                                 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="login.html" target="_blank">Registrarme</a>
+                                    <a class="nav-link" href="pages/login.html" target="_blank">Registrarme</a>
                             </li>
                         </ul>
                         <form class="d-flex mt-3" role="search">
@@ -73,27 +74,27 @@
         </div>
         <div class="d-grid gap-2 col-6 mx-auto">
             <button class="btn btn-primary bg-dark" type="button">
-                <a href="./pages/classes.html" target="_blank" class="text-warning bg-dark">+ movimiento</a>
+                <a href="pages/classes.html" target="_blank" class="text-warning bg-dark">+ movimiento</a>
             </button>
         </div>
         <h2 class="subtitulo">SUPLEMENTOS</h2>
             <div class="clases">
                 <article>
-                    <a href="./pages/supplements.html" target="_blank">
+                    <a href="pages/supplements.html" target="_blank">
                         <img src="./assets/img/creatinaimagen.jpg" alt="creatina"  width="250" height="250">
                         <h3 class="text-warning h6"> Creatina High Premium</h3>
                         <p class="text-warning h6">Queda solo uno</p>
                     </a>
                 </article>
                 <article >
-                    <a href="./pages/supplements.html" target="_blank">
+                    <a href="pages/supplements.html" target="_blank">
                         <img src="./assets/img/proteina.jpg" alt="proteina"  width="250" height="250">
                         <h3 class="text-warning h6">Preoteina importada Whey</h3>
                         <p class="text-warning h6">Queda solo uno </p>
                     </a>
                 </article>
                 <article >
-                    <a href="./pages/supplements.html" target="_blank">
+                    <a href="pages/supplements.html" target="_blank">
                         <img src="./assets/img/preentreno.webp" alt="preentreno" width="250" height="250" #preentreno>
                         <h3 class="text-warning h6 ">Pre-entreno Importado Diaboverde</h3>
                         <p class="text-warning h6 "> Queda solo uno </p>
@@ -102,7 +103,7 @@
             </div>
             <div  class="d-grid gap-2 col-6 mx-auto">
                 <button class="btn btn-primary bg-dark" type="button">
-                    <a href="./pages/supplements.html" target="_blank" class="text-warning bg-dark">Comprar</a>
+                    <a href="pages/supplements.html" target="_blank" class="text-warning bg-dark">Comprar</a>
                 </button>
             </div>
 
@@ -116,7 +117,7 @@
         </section>
         <div class="d-grid gap-2 col-6 mx-auto">
             <button class="btn btn-primary bg-dark" type="button">
-                <a href="./pages/login.html" target="_blank" class="text-warning bg-dark"> REGISTRARME</a>
+                <a href="pages/login.html" target="_blank" class="text-warning bg-dark"> REGISTRARME</a>
             </button>
         </div>
     </main>
