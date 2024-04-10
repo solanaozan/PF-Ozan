@@ -70,3 +70,37 @@ body main{
     align-content: space-around;
     align-items: center;
 }
+/*Findus*/
+main{
+    background-color: black;
+}
+.motivacionimg{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-content: center;
+    width: 100%;
+    height: 450px;
+}
+.mapas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-findus{
+    color: rgb(204, 1, 255);
+    font-size: 43px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 30px;
+    text-align: center;
+}
+.parrafo-findus{
+    color: rgba(131, 128, 128, 0.685);
+    font-size: 30px;
+    text-align: center;
+    padding:10px 30px 40px 30px;
+}
+.mapas{
+    display: flex;
+    
+}
