@@ -3,72 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <title>Find Us</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="shortcut icon" href="../assets/image/rayo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/img/rayo.png" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <nav class="menu">
-        <div>
-            <img src="../assets/image/rayo.png" alt="rayo" width="50" height="50">
+    <header>      
+        <nav class="navbar bg-body-tertiary fixed-top bg-dark">
+        <div class="container-fluid">
+        <h1 class="navbar-brand text-warning" href="#">Powerclub</h1>
+        <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                        <h5 class="offcanvas-title text-warning" id="offcanvasNavbarLabel">POWERCLUB</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body text-warning">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="../pages/index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="../pages/classes.html" target="_blank">Clases</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="../pages/supplements.html" role="button"  data-bs-toggle="dropdown" aria-expanded="false" target="_blank">Suplementos</a>
+                                <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="../pages/supplements.html#creatina" target="_blank">Creatina</a></li>
+                                        <li><a class="dropdown-item" href="../pages/supplements.html#proteina" target="_blank">Proteína</a></li>
+                                        <li><a class="dropdown-item" href="../pages/supplements.html#preentreno" target="_blank">Pre-entreno</a></li>
+                                </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/findus.html" target="_blank">Encuéntranos</a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/login.html" target="_blank">Registrarme</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                </div>
         </div>
-        <div>
-            <h1>Powerclub</h1>
         </div>
-        <ul class="espaciado">
-            <li>
-                    <a href="../index.html" target="_blank" > Inicio </a>
-            </li>
-            <li> 
-                    <a href="./classes.html" target="_blank" >Clases</a>
-            </li>
-            <li>
-                    <a href="./supplements.html" > Suplementos</a>
-                    <ul>
-                        <li> <a href=#creatina >creatina</a> </li>
-                        <li><a href=#proteina>Proteina </a> </li>
-                        <li> <a href=#preentreno>Pre-entreno</a> </li>
-                    </ul>
-            </li>
-            <li>
-                    <a href="./findus.html" target="_blank" class="sedessuplementos"> Sedes </a>
-            </li>
-            <li>
-                    <a href="./login.html" target="_blank" class="registrarmesuplementos"> Registrarme</a>
-            </li>
-        </ul>
-    </nav>
+        </nav>
 </header>
     <main>
+        <div class="motivacionimg"> <img src="../assets/img/motivacionimg.jpeg" height="400"></img></div>
         <section class="mapas">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.5938733855214!2d-79.59336162537113!3d8.917294491139634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca5a446188ee7%3A0x4fee8aee6d2e1580!2sPowerCLUB%20%7C%20Panam%C3%A1%20Pac%C3%ADfico!5e0!3m2!1ses-419!2sar!4v1709049963555!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            <p>Powerclub sede Panamá: 6am-23pm</p>
-            </iframe>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54415.69581772986!2d-68.67128705136716!3d-31.524682099999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9681419067ee1cd7%3A0xcece13e9ecbe60e9!2sLevel%20Up!5e0!3m2!1ses-419!2sar!4v1709050276636!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            <p>Powerclub sede San Juan: 6am-23pm </p>
-            </iframe>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27204.17333447617!2d-68.58693902568356!3d-31.5372951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96814133e11da81f%3A0x54d1c1d046784255!2sA2%20Club!5e0!3m2!1ses!2sar!4v1709168672936!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            <p>Powerclub sede San Juan capital: 6am-23pm</p>
-            </iframe>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108763.29581803965!2d-68.63589514482587!3d-31.583078910984895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9681402865f4614d%3A0x731f3cd018b6ae43!2sGimnasio%20Terra!5e0!3m2!1ses!2sar!4v1709168830370!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            <p>Powerclub sede Bs As: 6am-23pm</p>
-            </iframe>
+            <h2 class="titulo-findus">VIVIR LA EXPERIENCIA</h2>
+            <p class="parrafo-findus">Vivir la experiencia en vivo nunca fue tan fácil... Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam numquam rem tenetur velit provident nemo, blanditiis reiciendis quis maiores omnis et atque nulla aliquid repudiandae cumque, reprehenderit hic asperiores voluptatem</p>
         </section>
+        <div class="encuentro">
+        <section>
+            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.5938733855214!2d-79.59336162537113!3d8.917294491139634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca5a446188ee7%3A0x4fee8aee6d2e1580!2sPowerCLUB%20%7C%20Panam%C3%A1%20Pac%C3%ADfico!5e0!3m2!1ses-419!2sar!4v1709049963555!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <p class="parraf">Powerclub sede Panamá: 6am-23pm</p>
+            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54415.69581772986!2d-68.67128705136716!3d-31.524682099999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9681419067ee1cd7%3A0xcece13e9ecbe60e9!2sLevel%20Up!5e0!3m2!1ses-419!2sar!4v1709050276636!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <p class="parraf">Powerclub sede San Juan: 6am-23pm </p>
+        </section>
+        <section>
+            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27204.17333447617!2d-68.58693902568356!3d-31.5372951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96814133e11da81f%3A0x54d1c1d046784255!2sA2%20Club!5e0!3m2!1ses!2sar!4v1709168672936!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <p class="parraf">Powerclub sede San Juan capital: 6am-23pm</p>
+            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108763.29581803965!2d-68.63589514482587!3d-31.583078910984895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9681402865f4614d%3A0x731f3cd018b6ae43!2sGimnasio%20Terra!5e0!3m2!1ses!2sar!4v1709168830370!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <p class="parraf">Powerclub sede Bs As: 6am-23pm</p>
+        </section>
+        </div>
     </main>
     <footer>
         <h3> REDES SOCIALES</h3>
         <div>
-            <a href="https://www.instagram.com/powerclub.ar/">
-                <img src="../assets/image/instagramlogo.png" alt="Instagram" width="40" height="40">
-            </a>
-            <img src="../assets/image/facebooklogo.png" alt="Facebook" width="40" height="40">
-            <img src="../assets/image/twitterlogo.png" alt="Twitter" width="40" height="40">
-        
+                <a href="https://www.instagram.com/powerclub.ar/">
+                <img src="../assets/img/instagramlogo.png" alt="Instagram" width="40" height="40">
+                </a>
+                <img src="../assets/img/facebooklogo.png" alt="Facebook" width="40" height="40">
+                <img src="../assets/img/twitterlogo.png" alt="Twitter" width="40" height="40">
+        </div>
         <p>Todos los derechos reservados</p>
     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
