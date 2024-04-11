@@ -2,128 +2,99 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <title>Suplementos</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="shortcut icon" href="../assets/image/rayo.png" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <title>Suplementos</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="shortcut icon" href="../assets/img/rayo.png" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <nav class="menu">
-            <div>
-                <img src="../assets/image/rayo.png" alt="rayo" width="50" height="50">
-            </div>
-            <div>
-                <h1>Powerclub</h1>
-            </div>
-            <ul class="espaciado">
-                <li>
-                        <a href="../index.html" target="_blank" > Inicio </a>
-                </li>
-                <li> 
-                        <a href="./classes.html" target="_blank" >Clases</a>
-                </li>
-                <li>
-                        <a href="./supplements.html" > Suplementos</a>
-                        <ul>
-                            <li> <a href=#creatina >creatina</a> </li>
-                            <li><a href=#proteina>Proteina </a> </li>
-                            <li> <a href=#preentreno>Pre-entreno</a> </li>
-                        </ul>
-                </li>
-                <li>
-                        <a href="./findus.html" target="_blank" class="sedessuplementos"> Sedes </a>
-                </li>
-                <li>
-                        <a href="./login.html" target="_blank" class="registrarmesuplementos"> Registrarme</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+        <header>
+                <nav class="navbar bg-body-tertiary fixed-top bg-dark">
+                        <div class="container-fluid">
+                        <h1 class="navbar-brand text-warning" href="#">Powerclub</h1>
+                        <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title text-warning" id="offcanvasNavbarLabel">POWERCLUB</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body text-warning">
+                                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                                <li class="nav-item">
+                                                        <a class="nav-link" aria-current="page" href="../index.html" target="_blank">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a class="nav-link" href="../pages/classes.html" target="_blank">Clases</a>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                        <a class="nav-link dropdown-toggle" href="../pages/supplements.html" role="button"  data-bs-toggle="dropdown" aria-expanded="false" target="_blank">Suplementos</a>
+                                                <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="./supplements.html#creatina">Creatina</a></li>
+                                                        <li><a class="dropdown-item" href="./supplements.html#proteina">Proteína</a></li>
+                                                        <li><a class="dropdown-item" href="./supplements.html#preentreno">Pre-entreno</a></li>
+                                                </ul>
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a class="nav-link" href="../pages/findus.html" target="_blank">Encuéntranos</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a class="nav-link" href="../pages/login.html" target="_blank">Registrarme</a>
+                                                </li>
+                                        </ul>
+                                        <form class="d-flex mt-3" role="search">
+                                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                                        </form>
+                                </div>
+                        </div>
+                        </div>
+                        </nav>
+        </header>
+        <main>
+        <div class="imagen-fondo-3"></div>
         <div class="bannersuplemento">
-        <h2 class="mainsuplementos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nam doloremque itaque eum, accusantium consequuntur officia ipsa sed beatae esse asperiores voluptatibus ea culpa velit a eligendi, voluptates, architecto dolore.
+        <h2 class="que-son">¿QUÉ ES UN SUPLEMENTO?</h2>
+        <p class="mainsuplementos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nam doloremque itaque eum, accusantium consequuntur officia ipsa sed beatae esse asperiores voluptatibus ea culpa velit a eligendi, voluptates, architecto dolore.
         Nobis quis nesciunt quidem rerum sapiente eveniet rem exercitationem sit ea quia cumque placeat explicabo aut fuga a iusto itaque ex beatae harum tempora, provident minus vero blanditiis. Pariatur, itaque.
-        Vero, dicta? Quae aspernatur nostrum accusantium pariatur quis sapiente, ex vel asperiores sit blanditiis veniam temporibus voluptate nisi corporis nesciunt iure deleniti minima voluptatibus ipsam, commodi et rerum. Eligendi, adipisci.
-        Doloribus hic dolorum sunt nulla consectetur accusantium commodi eveniet rerum aliquam praesentium ex molestiae, iste earum exercitationem facilis excepturi maxime cupiditate saepe incidunt tempore quidem quisquam quos beatae ratione. Mollitia?
-        Doloremque nobis praesentium consectetur nam ipsa molestias, maxime, nisi natus doloribus necessitatibus cum animi vitae totam, ducimus reiciendis dolore veritatis illo voluptatibus voluptate! Aut, dolore hic? Repellendus non ad odio.</h2>
+        Vero, dicta? Quae aspernatur nostrum accusantium pariatur quis sapiente, ex vel asperiores sit blanditiis veniam temporibus voluptate nisi corporis nesciunt iure deleniti minima voluptatibus ipsam, commodi et rerum. Eligendi, adipisci.</a>
         </div>
-        <div class="divcol">
-        <section class="supl">  
-            <h2 id="creatina">Creatinas</h2>
-            <article>
-                    <img src="../assets/image/creatinaimagen.jpg" alt="creatina" width="150" height="150" >
-                    <h3> Creatina High Premium</h3>
-                </a>
-            </article>
-            <article>
-                    <img src="../assets/image/creatinamonohidrataada.jpg" alt=" creatina monohidratada" width="150" height="150">
-                    <h3>Creatina Monohidratada extreme</h3>
-            </article>
-            <article>
-                    <img src="../assets/image/creatinamonohidratadados.jpg" alt="creatina monohidratada" width="150" height="150">
-                    <h3> Creatina Monohidratada Import</h3>
-            </article>
-            <article>
-                    <img src="../assets/image/creatinamonohidratadatres.webp" alt="creatina monohidratada" width="150" height="150">
-                    <h3> Creatina monohidratada Vol</h3>
-            </article>
+        <section class="container-suplementos">
+                <div class="grid-item-">CREATINA</div>
+                <section class="grid-container-prod-crea" id="creatina"> 
+                        <article class="crea"><img class="img" src="../assets/img/creatinamonohidrataada.jpg" alt="Creatina Monohidratada"> <p>CREATINA MONOHIDRATADA </p></article> 
+                        <article class="crea"><img class="img" src="../assets/img/creatinamonohidratadados.jpg" alt="Creatina-Monohidratada Extreme"> <p>CREATINA MONOHIDRATADA EXTREME </p></article>
+                        <article class="crea"><img class="img" src="../assets/img/creatinamonohidratadatres.webp" alt="Creatina Monohidratada Forcuart"> <p>CREATINA MONOHIDRATADA FORCUART </p></article>
+                </section>
+                <div class="grid-item-" id="proteina">PROTEÍNA</div>
+                <section class="grid-container-prod-crea">
+                        <article class="crea"><img class="img" src="../assets/img/proteina.jpg" alt="Proteina Chocolate"> <p>PROTEÍNA DE CHOCOLATE </p></article>
+                        <article class="crea"><img class="img" src="../assets/img/proteinados.jpg" alt="Proteina THE WHEY"> <p>PROTEÍNA THE WHEY </p></article>
+                        <article class="crea"><img class="img" src="../assets/img/proteinacuatro.jpg" alt="Proteina BIRDMAN choco bronze"> <p>PROTEÍNA BIRDMAN CHOCO BRONZE</p> </article>
+                </section>
+                <div class="grid-item-" id="preentreno">PRE-ENTRENO</div>
+                <section class="grid-container-prod-crea">
+                        <article class="crea"><img class="img" src="../assets/img/preentrenounoboost.png" alt="Pre-entreno boost"> <p> BOOST </p></article>
+                        <article class="crea"><img class="img" src="../assets/img/preentrenodospower.jpg" alt="Pre-entreno power stack"> <p>PRE-ENTRENO POWER STACK</p></article>
+                </section>
         </section>
-        <section class="pro">
-            <h2 id="proteina">Proteínas</h2>
-            <article>
-                    <img src="../assets/image/proteina.jpg" alt="proteina" width="150" height="150" >
-                    <h3>Preoteina importada Whey</h3>
-            </article>
-            <article>
-                    <img src="../assets/image/proteinados.jpg" alt="proteina" width="150" height="150" >
-                    <h3>Proteina Full</h3>
-            </article>
-            <article>
-                    <img src="../assets/image/proteinatres.avif" alt="proteina" width="150" height="150">
-                    <h3>Proteina track</h3>
-            </article>
-            <article>
-                    <img src="../assets/image/proteinacuatro.jpg" alt="proteina" width="150" height="150">
-                    <h3> Proteina choc</h3>
-            </article>
-        </section>
-        <section class="preen">
-            <h2 id="preentreno">Pre-entreno</h2>
-            <article>
-                    <img src="../assets/image/preentreno.webp" alt="preentreno" width="150" height="150" >
-                    <h3 >Pre-entreno Importado Diaboverde</h3>
-            </article>
-            <article>
-                    <img src="../assets/image/preentrenounoboost.png" alt="preentreno" width="150" height="150">
-                    <h3>Pre-entreno boost</h3>
-            </article>
-            <article>
-                    <img src="../assets/image/preentrenodospower.jpg" alt="preentreno" width="150" height="150">
-                    <h3>Pre-entreno Power</h3>
-            </article>
-            <article> 
-                    <img src="../assets/image/preentrenotresbcaa.jpg" alt="preentreno" width="150" height="150">
-                    <h3>Pre-entreno BCAA</h3>
-            </article>
-        </section>
-        </div>
-    </main>
-    <footer>
-        <h3> REDES SOCIALES</h3>
-        <div>
-            <a href="https://www.instagram.com/powerclub.ar/">
-                <img src="../assets/image/instagramlogo.png" alt="Instagram" width="40" height="40">
-            </a>
-            <img src="../assets/image/facebooklogo.png" alt="Facebook" width="40" height="40">
-            <img src="../assets/image/twitterlogo.png" alt="Twitter" width="40" height="40">
-        </div>
-        <p>Todos los derechos reservados</p>
-    </footer>
-    <script src="../js/bootstrap.bundle.min.js"></script>
+        </main>
+        <footer>
+                <h3> REDES SOCIALES</h3>
+                <div>
+                        <a href="https://www.instagram.com/powerclub.ar/">
+                        <img src="../assets/img/instagramlogo.png" alt="Instagram" width="40" height="40">
+                        </a>
+                        <img src="../assets/img/facebooklogo.png" alt="Facebook" width="40" height="40">
+                        <img src="../assets/img/twitterlogo.png" alt="Twitter" width="40" height="40">
+                </div>
+                <p>Todos los derechos reservados</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
