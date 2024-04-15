@@ -175,6 +175,7 @@ img{
     width: 100px;
     height: 100px ;
     padding: 10px;
+}
 /*Findus*/
 main{
     background-color: black;
@@ -269,8 +270,3 @@ footer{
     padding: 40px 0 60px;
     border-top: solid orange;
 }
-/*@media (max-width:800px){
-    footer{
-        margin-top: 160px;
-    }
-}*/
