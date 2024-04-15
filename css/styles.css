@@ -11,24 +11,48 @@ body{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+@media (max-width:600px){
+    .clases{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    article{
+        margin-top: 20px;
+    }
+}
 .subtitulo{
-    display: inline-block;
-    margin: 15px;
+    display: block;
+    margin: 30px;
     font-size: 20px;
     font-style:normal;
     color: orange;
+    background-color: rgba(24, 23, 23, 0.671);
+}
+@media (max-width:600px){
+    .subtitulo{
+        margin-top: 80px;
+    }
 }
 .googlemaps{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin:25px 25px 25px 25px ;
 }
 @media (max-width:600px) {
     .googlemaps-{
-        margin-bottom: 30px;
-        margin-left: 30px;
+        margin: 30px 30px 30px 30px;
+        height: 200px;
+    }
+}
+@media (max-width:1280px){
+    .googlemaps-{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+        align-items: center;
     }
 }
 .grid-container{
@@ -269,8 +293,3 @@ footer{
     padding: 40px 0 60px;
     border-top: solid orange;
 }
-/*@media (max-width:800px){
-    footer{
-        margin-top: 160px;
-    }
-}*/
