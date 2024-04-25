@@ -1,0 +1,22 @@
+//variables de colores}
+$colors: (
+primary:#ffa600,
+secondary: #e3efef,
+tertiary: rgb(243, 163, 255),
+success: rgb(9, 255, 0),
+purple: rgb(239, 44, 239),
+dark:#000,
+);
+// para iterar el mapa
+@each $color, $value in $colors{
+    .bg-#{$color}{
+        background-color: $value;
+    }
+};
+/*//variables para background
+$background-prymary:#000;
+$background-secondary:rgb(126, 126, 126);
+*/
+//variables para fuentes
+$font-primary:Verdana, Geneva, Tahoma, sans-serif;
+$font-secondary:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

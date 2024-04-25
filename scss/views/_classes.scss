@@ -1,0 +1,49 @@
+.imagen-de-fondo-2{
+    background-image:url(../assets/img/itstartsherebanner.webp) ;
+    background-attachment: fixed;
+    margin-bottom: 70px;
+    height: 250px;
+    @media (max-width:600px){
+            height: 200px;
+    }
+}
+.d-block{
+    height: 550px;
+    width: 400px;
+    padding: 0 100px 0 100px;
+}
+.descripcion{
+    display:flex;
+    flex-direction: column;
+    font-family: $font-primary;
+    color: $color-text-primary;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+}
+.videos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 10px 100px;
+    border-radius: 5%;
+    border: solid $background-prymary;
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (min-width:600px){
+    .videos{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        border: none;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+    .clase-1{
+        width: 500px;
+        height: 400px;
+    }
+}

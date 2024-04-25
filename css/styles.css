@@ -1,12 +1,12 @@
-body{
+/*body{
     background-color: black !important;
-}
-.imagen-de-fondo-1{
+}*/
+/*.imagen-de-fondo-1{
     background-image:url(../assets/img/onemore.jpg) ;
     background-attachment: fixed;
         height: 200px;
-    }
-.clases{
+    }*/
+/*.clases{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -26,7 +26,7 @@ body{
     display: block;
     margin: 30px;
     font-size: 20px;
-    font-style:normal;
+    font-family:normal;
     color: orange;
     background-color: rgba(24, 23, 23, 0.671);
 }
@@ -55,7 +55,7 @@ body{
         align-items: center;
     }
 }
-.grid-container{
+/*.grid-container{
     display: grid;
     grid-template-columns: max-content ;
     grid-template-rows:  auto auto auto ;
@@ -67,25 +67,28 @@ body{
     padding: 20px;
     margin-top: 100px;
     border-top:solid orange;
-}
+}*/
+
+
+
 /*clases*/
-.imagen-de-fondo-2{
+/*.imagen-de-fondo-2{
     background-image:url(../assets/img/itstartsherebanner.webp) ;
     background-attachment: fixed;
     margin-bottom: 70px;
     height: 250px;
-}
-.d-block{
+}*/
+/*.d-block{
     height: 550px;
     width: 400px;
     padding: 0 100px 0 100px;
-}
-@media (max-width:600px){
+}*/
+/*@media (max-width:600px){
     .imagen-de-fondo-2{
         height: 200px;
     }
-}
-.videos{
+}*/
+/*.videos{
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
@@ -108,8 +111,8 @@ body{
         width: 500px;
         height: 400px;
     }
-}
-.descripcion{
+}*/
+/*.descripcion{
     display:flex;
     flex-direction: column;
     font-family: fantasy;
@@ -119,20 +122,23 @@ body{
     padding: 30px;
     text-align: center;
     align-items: center;
-}
+}*/
+
+
+
 /*supplements*/
-body footer{
+/*body footer{
     background-color: black;
     flex-direction: column;
     color: orange;
-}
-.imagen-fondo-3{
+}*/
+/*.imagen-fondo-3{
     background-image: url(../assets/img/onemore.jpg);
     background-attachment:fixed;
     width: 100%;
     height: 300px;
-}
-.bannersuplemento{
+}*/
+/*.bannersuplemento{
     display:flex;
     flex-direction: column;
     margin: 60px 20px 40px 20px;
@@ -140,8 +146,8 @@ body footer{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 30px;
     align-content: space-around;
-}
-.que-son{
+}*/
+/*.que-son{
     font-size: 40px;
     text-align: center;
     color: azure;
@@ -149,18 +155,18 @@ body footer{
 .mainsuplementos{
     font-size:larger;
     text-align: center;
-}
-footer {
+}*/
+/*footer {
     border-top: solid orange;
     text-align: center;
-}
-.container-suplementos{
+}*/
+/*.container-suplementos{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     color: orange;
-}
-.grid-item-{
+}*/
+/*.grid-item-{
     display: flex;
     border: 1px solid rgb(255, 159, 14);
     border-radius: 4px;
@@ -169,8 +175,8 @@ footer {
     margin: 30px 0 30px 0;
     padding-left: 20px;
     color: aliceblue;
-}
-.grid-container-prod-crea{
+}*/
+/*.grid-container-prod-crea{
     flex: 1 1 0%;
     border: none;
     display: flex;
@@ -197,16 +203,17 @@ footer {
     .crea{
         border: none;
     }
-}
+}*/
 /*Findus*/
-img{
+/*img{
     height: 400px;
     padding: 10px;
-}
+}*/
 /*Findus*/
-main{
+/*body{
     background-color: black;
-}
+}*/
+/*
 .motivacionimg{
     display: flex;
     flex-direction: column;
@@ -216,18 +223,18 @@ main{
 @media (max-width:600px){
     .motivacionimg{
         height: 300px;
-    }
-    .maps{
+    }*/
+    /*.maps{
         width: 300px;
         height: 300px;
-    }
-}
+    }*/
+/*
 .mapas{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.titulo-findus{
+}*/
+/*.titulo-findus{
     color: rgb(135, 255, 65);
     font-size: 43px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -256,18 +263,18 @@ main{
     color: rgb(9, 255, 0);
     font-size: 16px;
     text-align: center;
-}
-footer{
-    padding: 40px 0 40px 0;
+}*/
+/*footer{
+    padding: 40px 0 60px 0;
     border-top: solid orange;
     text-align: center;
     background-color: black;
     color: orange;
-}
+}*/
 /* login*/
-main{
+/*body{
     background-color: black;
-}
+}*/
 .titulo-login{
     padding-top:60px;
     color: mediumvioletred;
@@ -275,7 +282,7 @@ main{
     text-align: left;
     padding-left: 80px;
 }
-.formulario{
+/*.formulario{
     color: azure;
     text-align:left;
     width: 75%;
@@ -287,14 +294,14 @@ main{
         background-color: black;
         height:90px;
     }
-}
-footer{
+}*/
+/*footer{
     text-align: center;
     background-color: black;
     color: orange;
     padding: 40px 0 60px;
     border-top: solid orange;
-}
+}*/
 .imgredes{
     height:50px;
 }

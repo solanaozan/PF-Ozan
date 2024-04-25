@@ -1,0 +1,14 @@
+
+.formulario{
+    color: $color-text-secondary;
+    text-align:left;
+    width: 75%;
+    height: 600px;
+    padding-left: 80px;
+}
+@media(max-width:800px){
+    .background-espacio{
+        background-color:$background-prymary;
+        height:90px;
+    }
+}
